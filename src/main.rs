@@ -10,7 +10,7 @@ fn main() {
     let number: i32 = rng.gen_range(0..100);
     
     println!("{}", "Guess a number".blue());
-    println!("{}", "The color is between 0 - 100".bold());
+    println!("{}", "The number is between 0 - 100".bold());
 
     loop {
         let mut line = String::new();
